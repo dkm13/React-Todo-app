@@ -1,0 +1,74 @@
+.btns {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.done {
+  background-color: rgb(19, 151, 19);
+  padding: 8px 28px;
+  font-size: 16px;
+  margin: 0 8px 0 0;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  cursor: pointer;
+}
+.finished {
+  color: rgb(19, 151, 19);
+  font-size: 17px;
+  background-color: #e6ffee;
+  padding: 4px 8px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 16px rgb(15, 109, 15);
+  border: 4px solid rgb(70, 165, 70);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  text-shadow: 0 0 1px green;
+}
+.unfinished {
+  color: crimson;
+  font-size: 17px;
+  background-color: #fff2f2;
+  padding: 4px 8px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 16px crimson;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  text-shadow: 0 0 1px crimson;
+  border: 4px solid crimson;
+}
+.done:hover {
+  background-color: rgb(15, 109, 15);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.delete {
+  background-color: rgb(158, 26, 26);
+  padding: 8px 28px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.delete:hover {
+  background-color: crimson;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
